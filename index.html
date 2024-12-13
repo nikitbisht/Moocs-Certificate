@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24HS26S45420040730701598</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="downloadPDF()">Course Certificate</button>
+
+    <script>
+        function downloadPDF() {
+            const link = document.createElement('a');
+            link.href = './Enhancing Soft Skills and Personality.pdf'; // Place the PDF in the same folder
+            link.download = 'Enhancing_Soft_Skills_and_Personality.pdf';
+            link.click();
+        }
+    </script>
+</body>
+</html>
